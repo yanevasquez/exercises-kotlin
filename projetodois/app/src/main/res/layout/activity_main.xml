@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/showViewColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <TextView
+        android:id="@+id/colorsHex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
+
+
+    <View
+        android:id="@+id/seekColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="401dp"
+        android:layout_height="45dp"
+        android:progressTint="#E91E63"
+        android:thumbTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showViewColor"
+        app:layout_constraintVertical_bias="0.241"
+        android:max="255"
+        android:progress="0"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="403dp"
+        android:layout_height="57dp"
+        android:progressTint="#FFC107"
+        android:thumbTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showViewColor"
+        app:layout_constraintVertical_bias="0.48"
+        android:max="255"
+        android:progress="0"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="404dp"
+        android:layout_height="64dp"
+        android:progressTint="#6A0E7A"
+        android:thumbTint="#6A0E7A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/showViewColor"
+        app:layout_constraintVertical_bias="0.711"
+        android:max="255"
+        android:progress="0"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
