@@ -1,1 +1,1 @@
-![Resultado](https://github.com/yanevasquez/exercises/blob/main/projetoum/telas/resultado_telas.gif)
+![Resultado](https://github.com/yanevasquez/exercises/blob/main/projetodois/telas/resultado_telas.gif)
